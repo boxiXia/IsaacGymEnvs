@@ -1,4 +1,4 @@
-# Copyright (c) 2018-2021, NVIDIA Corporation
+# Copyright (c) 2018-2022, NVIDIA Corporation
 # All rights reserved.
 #
 # Redistribution and use in source and binary forms, with or without
@@ -35,6 +35,7 @@ from isaacgymenvs.tasks.ball_balance import BallBalance
 from isaacgymenvs.tasks.cartpole import Cartpole 
 from isaacgymenvs.tasks.franka_cabinet import FrankaCabinet
 from isaacgymenvs.tasks.humanoid import Humanoid
+from isaacgymenvs.tasks.humanoid_amp import HumanoidAMP
 from isaacgymenvs.tasks.ingenuity import Ingenuity
 from isaacgymenvs.tasks.quadcopter import Quadcopter
 from isaacgymenvs.tasks.shadow_hand import ShadowHand
@@ -50,6 +51,7 @@ isaacgym_task_map = {
     "Cartpole": Cartpole,
     "FrankaCabinet": FrankaCabinet,
     "Humanoid": Humanoid,
+    "HumanoidAMP": HumanoidAMP,
     "Ingenuity": Ingenuity,
     "Quadcopter": Quadcopter,
     "ShadowHand": ShadowHand,

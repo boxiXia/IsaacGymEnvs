@@ -17,6 +17,7 @@ INSTALL_REQUIRES = [
     "gym",
     "torch",
     "omegaconf",
+    "termcolor",
     "hydra-core>=1.1",
     "rl-games",
 ]
@@ -25,14 +26,14 @@ INSTALL_REQUIRES = [
 setup(
     name="isaacgymenvs",
     author="NVIDIA",
-    version="0.1.0",
+    version="1.2.0",
     description="Benchmark environments for high-speed robot learning in NVIDIA IsaacGym.",
     keywords=["robotics", "rl"],
     include_package_data=True,
     python_requires=">=3.6.*",
     install_requires=INSTALL_REQUIRES,
     packages=find_packages("."),
-    classifiers=["Natural Language :: English", "Programming Language :: Python :: 3.7"],
+    classifiers=["Natural Language :: English", "Programming Language :: Python :: 3.7, 3.8"],
     zip_safe=False,
 )
 
